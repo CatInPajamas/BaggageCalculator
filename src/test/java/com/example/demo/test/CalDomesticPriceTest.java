@@ -105,7 +105,6 @@ public class CalDomesticPriceTest {
     public void testCheck(Passenger passenger) throws Exception{
         realprice=passenger.price;
         calprice=CalPrice.getPrice(passenger.baggages,passenger.region,passenger.passengerType,passenger.passengerLevel,passenger.cabin,1000.0);
-
     }
 
 
