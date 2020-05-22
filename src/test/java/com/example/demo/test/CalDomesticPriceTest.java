@@ -99,7 +99,6 @@ public class CalDomesticPriceTest {
         }else{
             System.out.println("计算价格："+calprice+"  实际价格："+realprice+"   fail");
         }
-
     }
 
     @Test(dataProvider = "dataProvider1")

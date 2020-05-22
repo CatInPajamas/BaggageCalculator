@@ -81,12 +81,14 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>src/test/resources/NationalPriceTest.xml</suiteXmlFile>
-                        <suiteXmlFile>src/test/resources/DomesticPriceTest.xml</suiteXmlFile>
+                        <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
+                    <forkMode>once</forkMode>
+                    <argLine>-Dfile.encoding=UTF-8</argLine>
                 </configuration>
-                <version>2.4</version>
+                <version>3.0.0-M4</version>
             </plugin>
+
         </plugins>
     </build>
 
