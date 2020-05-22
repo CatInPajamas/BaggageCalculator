@@ -3,6 +3,7 @@ package com.example.demo.service;
 import com.example.demo.entity.*;
 import com.example.demo.exception.ExceptionTwo;
 
+import java.sql.SQLOutput;
 import java.util.ArrayList;
 
 public class CalPrice {
@@ -29,7 +30,6 @@ public class CalPrice {
                                 break;
                             case 1:
                                 extraPrice+=1400;
-                                System.out.println("1400 1");
                                 break;
                             case 2:
                                 extraPrice+=1400+2000;
@@ -69,15 +69,14 @@ public class CalPrice {
                     }
                     break;
                 }
+
                 case 3:{
                     if(region.equals("AreaOne")){
                         if(e.getWeight_excess()>23&&e.getWeight_excess()<=28){
                             extraPrice+=380;
-                            System.out.println("380");
                         }
                         if(e.getWeight_excess()>28&&e.getWeight_excess()<=32){
                             extraPrice+=980;
-                            System.out.println("980 1");
                         }
                     }
                     if(region.equals("AreaTwo")){
@@ -112,7 +111,6 @@ public class CalPrice {
                 case 4:{
                     if(region.equals("AreaOne")){
                         extraPrice+=980;
-                        System.out.println("980 2");
                     }
                     if(region.equals("AreaTwo")){
                         extraPrice+=690;
@@ -131,7 +129,6 @@ public class CalPrice {
                 case 5:{
                     if(region.equals("AreaOne")){
                         extraPrice+=1400;
-                        System.out.println("1400 2");
                     }
                     if(region.equals("AreaTwo")){
                         extraPrice+=1100;

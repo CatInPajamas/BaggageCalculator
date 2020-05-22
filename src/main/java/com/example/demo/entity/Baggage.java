@@ -47,4 +47,9 @@ public class Baggage {
     public double getSize() {
         return size;
     }
+
+    @Override
+    public String toString() {
+        return  length + "-" + width + "-" + height+ "-" +weight  ;
+    }
 }
