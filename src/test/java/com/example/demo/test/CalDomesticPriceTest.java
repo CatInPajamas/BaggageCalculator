@@ -2,19 +2,10 @@ package com.example.demo.test;
 
 import com.example.demo.entity.*;
 import com.example.demo.service.CalPrice;
-import com.example.demo.utils.XmlRead;
-import com.example.demo.utils.csvParser;
 import com.example.demo.utils.test;
-import com.example.demo.utils.write2Xml;
-import com.sun.xml.internal.bind.v2.runtime.output.SAXOutput;
 import org.testng.annotations.*;
-
-import java.io.BufferedReader;
-import java.io.FileInputStream;
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 

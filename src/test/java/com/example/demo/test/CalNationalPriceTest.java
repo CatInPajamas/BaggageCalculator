@@ -4,7 +4,6 @@ import com.example.demo.entity.Baggage;
 import com.example.demo.service.CalPrice;
 import com.example.demo.utils.csvParser;
 import com.example.demo.utils.test;
-import com.example.demo.utils.write2Xml;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
