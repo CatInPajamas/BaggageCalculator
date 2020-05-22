@@ -90,6 +90,7 @@
                     </suiteXmlFiles>
                     <forkMode>once</forkMode>
                     <argLine>-Dfile.encoding=UTF-8</argLine>
+                    <testFailureIgnore>true</testFailureIgnore>
                 </configuration>
                 <version>3.0.0-M4</version>
             </plugin>
